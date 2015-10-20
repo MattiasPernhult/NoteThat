@@ -43,6 +43,8 @@ public class EditorActivity extends AppCompatActivity {
             editor.setText(oldText);
             // move the cursor to the end
             editor.requestFocus();
+
+            setTitle("Edit note");
         }
     }
 
